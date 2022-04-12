@@ -1,0 +1,105 @@
+/* style css*/
+
+/*index style*/
+*{
+    background-color: rgb(216, 186, 157);
+    margin: 0;
+    padding: 0;
+    }
+
+.title{
+    color: rgba(78, 74, 74, 0.137);
+    font-size: medium;
+    text-align: left;
+
+}
+
+
+.head1{
+    color: hsl(0, 0%, 0%);
+    font-size:75px;
+    font-weight: 700;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+
+}
+
+.recipe{
+    padding: 30px 10px;
+    color:rgb(43, 41, 41);
+    font-size: medium;
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    text-align: center;
+        }
+
+
+.recipe:hover{
+        color: rgb(128, 71, 71);
+        font-size: 75px;
+    }
+
+.listhome{
+    list-style: none;
+}
+
+
+.recipe{
+    display: block;
+    list-style-type: disc;
+    margin:25px;
+}
+
+/*recipe pages css*/
+
+.p{
+    font-size:25px;
+    text-align:center;
+}
+
+.image{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+
+
+.head2{
+    font-size: 30px;
+    font-weight: 700;
+    text-align: left;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.ingredients{
+    font-size: 20px;
+    margin-left: 30px;
+
+}
+
+.method{
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+.ml{
+    padding: 10px 10px;
+}
+
+.home{
+    text-align: center;
+    font-size: 25px;
+    color:rgb(43, 41, 41);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    padding-bottom: 30px;
+    position:fixed;
+    bottom: 15px;
+}
+
+.home:hover{ 
+    color: rgb(128, 71, 71);
+     }
